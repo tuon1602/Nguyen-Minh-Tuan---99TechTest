@@ -1,7 +1,7 @@
 interface WalletBalance {
   currency: string;
   amount: number;
-  blockChain: string;
+  blockchain: string;
 }
 
 // using extends
