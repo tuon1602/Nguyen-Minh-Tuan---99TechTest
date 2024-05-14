@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import CurrencyForm from "./_components/CurrencyForm";
+import { clearDuplicate } from "@/utils";
 
 import Image from "next/image";
 
@@ -25,7 +26,7 @@ export default async function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center mt-10 space-y-10">
       <h2 className="text-4xl ">Problem 2</h2>
-      <CurrencyForm currency={currencyData}/>
+      <CurrencyForm currency={clearDuplicate(currencyData,"currency")}/>
     </main>
   );
 }

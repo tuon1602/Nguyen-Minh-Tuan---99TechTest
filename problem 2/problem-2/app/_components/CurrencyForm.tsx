@@ -66,7 +66,7 @@ const CurrencyForm: React.FC<ICurrency> = ({ currency }) => {
       ).toFixed(2);
       setResult(parseFloat(exchangeResult));
       setLoading(false);
-    }, 2000);
+    }, 1000);
   }
   return (
     <Card className="w-full max-w-md">
