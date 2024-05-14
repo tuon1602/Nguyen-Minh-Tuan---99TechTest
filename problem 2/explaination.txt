@@ -1,0 +1,3 @@
+I'm using create-next-app instead of create-react-app
+Shadcn/Ui is my choice for creating a UI form 
+React-hook-form and zod are my choice for form validation
