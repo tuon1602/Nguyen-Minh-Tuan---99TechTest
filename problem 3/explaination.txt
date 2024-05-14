@@ -1,0 +1,7 @@
+1. WalletBalance object interface need blockchain type string
+2. I made FormattedWalletBalance interface is extends WalletBalance 
+3. getPriority function that has argument blockChain change from any to string
+4. lhsPriority in filter is incorrect value
+5. refactor some nested if and condition in sortedBalances function
+6. add types for formattedBalances , toFixed need an value in my example is 2, add useMemo for this function cause it's calculating 
+7. add useMemo for rows function 
